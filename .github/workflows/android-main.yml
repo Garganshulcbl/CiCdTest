@@ -29,7 +29,6 @@ jobs:
 
       - name: Run Yarn Install
         run: |
-             mkdir ./packages/app-mobile
              cd ./packages/app-mobile
              npm i -g corepack
              yarn install             
